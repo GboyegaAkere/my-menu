@@ -7,7 +7,6 @@ function Categories({filterItems, categories}){
                 return(
                     <button className="filter-btn" key={index} onClick={()=>filterItems(category)}>
                         {category}
-
                     </button>
                 )
             })}
